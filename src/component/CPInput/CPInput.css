@@ -1,0 +1,39 @@
+@import '../../variables.css';
+
+.controlLabel {
+  margin: 5px;
+  display: inline-block;
+}
+
+:global(.inline) {
+  display: flex;
+}
+
+:global(.inline) :global(.CPInput-controlLabel-piYhc) {
+  width: 80px;
+}
+
+:global(.inline) :global(.ant-input-affix-wrapper) {
+  flex: 1;
+}
+
+.input {
+  color: #000c17;
+}
+
+:global(.inline) .controlLabel {
+  margin: 5px 5px 0 10px;
+  display: inline-block;
+}
+
+.input:global(.ltrInput .ant-input-group) {
+  direction: ltr;
+}
+
+.input:global(.ltrInput) input {
+  direction: ltr;
+}
+
+.inputasd {
+  color: #000c17;
+}
